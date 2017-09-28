@@ -12,7 +12,7 @@ Recursion examples and exercises we consider:
 * Factorial Method (Figs. 18.3 and 18.4)
 * Fibonacci Method (Fig. 18.5)
 * Towers of Hanoi (Fig. 18.11)
-* Fractals (Figs. 18.18 and 18.19)
+* [Fractals](https://github.com/AlbertHambardzumyan/recursion/blob/master/src/Koch_Curve_Fractal/FRACTALS.md)
 * What Does This Code Do? (Exercise 18.7, Exercise 18.12 and Exercise 18.13) 
 * Find the Error in the Following Code (Exercise 18.8)
 * Raising an Integer to an Integer Power (Exercise 18.9)
