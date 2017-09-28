@@ -72,3 +72,34 @@ To better understand the concept of recursion, let’s look at an example that�
  initial directory’s files, then makes recursive calls to list the files in each of that directory’s subdirectories. 
  The base case occurs when a directory is reached that does not contain any subdirectories. At this point, all the 
  files in the original directory have been listed and no further recursion is necessary.
+
+
+## Recursion vs. Iteration
+
+Methods such as factorial or fibonacci can easily be implemented either recursively or iteratively. Why you might 
+ choose one approach over the other in a particular situation?
+ 
+Both iteration and recursion are based on a control statement: Iteration uses a repetition statement (e.g., for, while 
+ or do...while), whereas recursion uses a selection statement (e.g., if, if...else or switch). Both iteration and 
+ recursion involve repetition: Iteration explicitly uses a repetition statement, whereas recursion achieves repetition 
+ through repeated method calls. Iteration and recursion each involve a termination test: Iteration terminates when the 
+ loop-continuation condition fails, whereas recursion terminates when a base case is reached. Iteration with 
+ counter-controlled repetition and recursion both gradually approach termination: Iteration keeps modifying a counter 
+ until the counter assumes a value that makes the loop-continuation condition fail, whereas recursion keeps producing 
+ smaller versions of the original problem until the base case is reached. Both iteration and recursion can occur 
+ infinitely: An infinite loop occurs with iteration if the loop-continuation test never becomes false, whereas infinite
+ recursion occurs if the recursion step does not reduce the problem each time in a manner that converges on the base 
+ case, or if the base case is not tested.
+ 
+Recursion has many negatives. It repeatedly invokes the mechanism, and consequently the overhead, of method calls. This
+ repetition can be expensive in terms of both processor time and memory space. Each recursive call causes another copy
+ of the method (actually, only the method’s variables, stored in the activation record) to be created—this set of
+ copies can consume considerable memory space. Since iteration occurs within a method, repeated method calls and extra
+ memory assignment are avoided.
+ 
+Any problem that can be solved recursively can also be solved iteratively (nonrecursively). A recursive approach is 
+ normally preferred over an iterative approach when the recursive approach more naturally mirrors the problem and 
+ results in a program that is easier to understand and debug. A recursive approach can often be implemented with fewer
+ lines of code. Another reason to choose a recursive approach is that an iterative one might not be apparent.
+ 
+Avoid using recursion in situations requiring high performance. Recursive calls take time and consume additional memory.
