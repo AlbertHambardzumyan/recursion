@@ -1,4 +1,4 @@
-package Koch_Curve_Fractal;
+package koch_curve_fractal;
 
 import java.awt.Color;
 import java.awt.FlowLayout;

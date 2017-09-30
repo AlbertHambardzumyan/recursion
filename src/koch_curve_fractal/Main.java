@@ -1,4 +1,4 @@
-package Koch_Curve_Fractal;
+package koch_curve_fractal;
 
 import javax.swing.*;
 import java.applet.Applet;
