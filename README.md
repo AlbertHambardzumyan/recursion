@@ -11,7 +11,7 @@ The programs are generally structured as methods that call one another in a hier
 Recursion examples and exercises we consider:
 * Factorial Method (Figs. 18.3 and 18.4)
 * Fibonacci Method (Fig. 18.5)
-* Towers of Hanoi (Fig. 18.11)
+* [Towers of Hanoi](https://github.com/AlbertHambardzumyan/recursion/blob/master/src/towers_of_hanoi/TOWERS_OF_HANOI.md)
 * [Fractals](https://github.com/AlbertHambardzumyan/recursion/blob/master/src/Koch_Curve_Fractal/FRACTALS.md)
 * What Does This Code Do? (Exercise 18.7, Exercise 18.12 and Exercise 18.13) 
 * Find the Error in the Following Code (Exercise 18.8)
