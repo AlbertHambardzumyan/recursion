@@ -34,7 +34,7 @@ We now demonstrate the use of recursion to draw fractals by writing a program to
  We call this the “Lo fractal”. The base case, or fractal level of 0, begins as a line between two points, A and B. To
  create the next higher level, we find the mid- point C of the line. To calculate the location of point C, use the 
  following formula:
- ```
+ ``` 
   xC = (xA + xB) / 2
   yC = (yA + yB) / 2
  ```
@@ -51,4 +51,4 @@ We now move from level 0 to level 1 as follows: First, add points C and D. Then,
  the next level of the fractal, this algorithm is repeated on each of the three lines in level 1. For each line, the 
  formulas above are applied.
  
-[Application source code](https://github.com/AlbertHambardzumyan/recursion/tree/master/src/Koch_Curve_Fractal)
+[Application source code](https://github.com/AlbertHambardzumyan/recursion/tree/master/src/koch_curve_fractal)
