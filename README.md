@@ -9,7 +9,7 @@ The programs are generally structured as methods that call one another in a hier
  can call itself either directly or indirectly through another method.
   
 Recursion examples and exercises we consider:
-* Factorial Method (Figs. 18.3 and 18.4)
+* [Factorial Method](https://github.com/AlbertHambardzumyan/recursion/blob/master/src/factorial_method/FACTORIAL_METHOD.md)
 * Fibonacci Method (Fig. 18.5)
 * [Towers of Hanoi](https://github.com/AlbertHambardzumyan/recursion/blob/master/src/towers_of_hanoi/TOWERS_OF_HANOI.md)
 * [Fractals](https://github.com/AlbertHambardzumyan/recursion/blob/master/src/koch_curve_fractal/FRACTALS.md)
