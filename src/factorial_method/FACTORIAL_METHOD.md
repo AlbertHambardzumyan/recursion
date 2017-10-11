@@ -32,3 +32,21 @@ The evaluation of 5! would proceed as shown in bellow. Figure (a) shows how the 
  returned from each recursive call to its caller until the final value is calculated and returned.
  
 ![factorial method](https://github.com/AlbertHambardzumyan/recursion/blob/master/doc/factorial-method.png "Recursive evaluation of 5!")
+
+ ``` text
+  0! = 1
+  1! = 1
+  2! = 2
+  3! = 6
+  4! = 24
+  5! = 120
+  ...
+  12! = 479001600   12! causes overflow for int variables
+  ...
+  20! = 2432902008176640000
+  21! = -4249290049419214848   21! causes overflow for long variables
+ ```
+
+Either omitting the base case or writing the recursion step incorrectly so that it does not converge on the base case
+ can cause a logic error known as infinite recursion, where recursive calls are continuously made until memory is 
+ exhausted. This error is analogous to the problem of an infinite loop in an iterative (nonrecursive) solution.
