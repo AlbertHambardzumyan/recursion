@@ -50,3 +50,5 @@ The evaluation of 5! would proceed as shown in bellow. Figure (a) shows how the 
 Either omitting the base case or writing the recursion step incorrectly so that it does not converge on the base case
  can cause a logic error known as infinite recursion, where recursive calls are continuously made until memory is 
  exhausted. This error is analogous to the problem of an infinite loop in an iterative (nonrecursive) solution.
+ 
+[Application source code](https://github.com/AlbertHambardzumyan/recursion/blob/master/src/factorial_method)
