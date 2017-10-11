@@ -11,7 +11,7 @@ The *Towers of Hanoi* is one of the classic problems every budding computer scie
   for temporarily holding disks. Supposedly, the world will end when the priests complete their task, so there’s little
   incentive for us to facilitate their efforts.
  
-![hanoi of tower](https://github.com/AlbertHambardzumyan/recursion/blob/master/doc/towers-of-hanoi.png "Hanoi of Tower")
+![towers of hanoi](https://github.com/AlbertHambardzumyan/recursion/blob/master/doc/towers-of-hanoi.png "Towers of Hanoi")
  
 Let’s assume that the priests are attempting to move the disks from peg 1 to peg 3. We wish to develop an algorithm
  that prints the precise sequence of peg-to-peg disk transfers. If we try to find an iterative solution, we’ll likely
