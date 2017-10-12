@@ -11,12 +11,11 @@ The programs are generally structured as methods that call one another in a hier
 Recursion examples and exercises we consider:
 * [Factorial Method](https://github.com/AlbertHambardzumyan/recursion/blob/master/src/factorial_method/FACTORIAL_METHOD.md)
 * Fibonacci Method (Fig. 18.5)
+* [Raising an Integer to an Integer Power (Exercise)](https://github.com/AlbertHambardzumyan/recursion/blob/master/src/power_method/POWER_METHOD.md)
 * [Towers of Hanoi](https://github.com/AlbertHambardzumyan/recursion/blob/master/src/towers_of_hanoi/TOWERS_OF_HANOI.md)
 * [Fractals](https://github.com/AlbertHambardzumyan/recursion/blob/master/src/koch_curve_fractal/FRACTALS.md)
 * What Does This Code Do? (Exercise 18.7, Exercise 18.12 and Exercise 18.13) 
 * Find the Error in the Following Code (Exercise 18.8)
-* Raising an Integer to an Integer Power (Exercise 18.9)
-* Visualizing Recursion (Exercise 18.10)
 * Greatest Common Divisor (Exercise 18.11)
 * Determine Whether a String Is a Palindrome (Exercise 18.14)
 * Eight Queens (Exercise 18.15)
