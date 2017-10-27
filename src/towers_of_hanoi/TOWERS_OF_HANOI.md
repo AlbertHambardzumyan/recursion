@@ -34,4 +34,9 @@ Our application solves the Towers of Hanoi, given the total number of disks (in 
  (destinationPeg), this time using the first peg (sourcePeg) as the temporary peg. In main calls the recursive 
  solveTowers method, which outputs the steps to the command prompt.
  
+### Complexity of the Towers of Hanoi
+The algorithm twice calls `Move n-1 disks`, and each of these twice calls `Move n-2 disks`. And so on, until the base
+ case is reached. There are `n` stages and the number of calls is doubled at each stage. Thus, the total number of calls
+ is `2^n - 1`. This results in a big O of O(2^n) for a Towers of Hanoi, which is also known as EXPONENTIAL GROWTH.
+  
 [Application source code](https://github.com/AlbertHambardzumyan/recursion/tree/master/src/towers_of_hanoi)
